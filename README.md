@@ -1,8 +1,4 @@
-# React + Vite
+# PlagCheck : A Document Similarity Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
+Document Matching using Dynamic Programming project is a Swift implementation of a document matching algorithm that uses dynamic programming to compare two documents and return the matched characters. The algorithm uses a tabulation approach to store previously seen values, which improves the average run time efficiency to O(n*m), where n and m represent the sizes of two documents being compared in a document matching problem.
